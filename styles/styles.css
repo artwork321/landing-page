@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #FE72A9;
+    gap: 50px;
+    padding: 5px 100px;
+    color: whitesmoke;
+    
+}
+
+header img {
+    margin-right: auto;
+}
+
+header h2 {
+    font-size: 20px;
+}
+
+main {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #FCE4BF;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+/* First Section */
+.first_sec {
+    display: flex;
+    padding: 30px 90px;
+    color: rgb(41, 40, 40);
+}
+
+.first_sec h1 {
+    margin-bottom: 0;
+}
+
+.introduction {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.button {
+    width: 200px;
+    border-radius: 15px;
+    background-color: #DD4470;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Second section */
+hr {
+    width: 80%;
+    border: 2px solid #FE72A9;
+}
+
+.second_sec {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px 30px;
+}
+
+.second_sec .item {
+    text-align: center;
+    color: rgb(41, 40, 40);
+}
+
+.second_sec .item > img {
+    border-radius: 20px;
+}
+
+/* Section 3 */
+.third-sec {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffc872;
+    border-radius: 20px;
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+.content .author {
+    text-align: right;
+    margin-right: 20px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #DD4470;
+    padding: 5px 100px;
+    color: whitesmoke;
+}
+
+.info {
+    margin-right: auto;
+}
+
+footer label {
+    display: inline;
+}
+footer input {
+    width: 50%;
+    background-color: #DD4470;
+    color: whitesmoke;
+    border-bottom: black;
+}
